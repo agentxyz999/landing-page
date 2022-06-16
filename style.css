@@ -39,6 +39,8 @@ li a{
 .main img{
     height: 300px;
     width: 500px;
+    border-radius: 10px;
+    border-style: none;
 }
 h1{
     font-size: 48px;
@@ -56,6 +58,10 @@ h1{
     padding: 5px;
     background-color: #3882f6;
     color: #F9FAF8;
+    border-style: none;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
 }
 .header p{
     font-size: 18px;
@@ -76,6 +82,7 @@ h1{
 .card-container{
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100%;
 }
 .card{
     padding: 10px;
@@ -84,6 +91,8 @@ h1{
 .card img{
     width: 200px;
     height: 200px;
+    border-radius: 10px;
+    border-style: none;
 }
 .quote{
     background-color:#E5E7EB ;
@@ -106,4 +115,26 @@ h1{
     align-self: flex-end;
     margin-right: 100px;
     margin-bottom: 50px;
+}
+.sign-up{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 50px;
+    padding: 50px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+.call p{
+    font-size: 12px;
+}
+.button2{
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    border-color: #F9FAF8;
 }
