@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0;
 }
-img{
-    height: 300px;
-    width: 500px;
-}
 .navbar, .main, footer{
     background-color: #1F2937 ;
 }
@@ -40,6 +36,10 @@ li a{
     padding: 18px;
     justify-content: space-around;   
 }
+.main img{
+    height: 300px;
+    width: 500px;
+}
 h1{
     font-size: 48px;
     color: #F9FAF8;
@@ -60,4 +60,50 @@ h1{
 .header p{
     font-size: 18px;
     color: #E5E7EB;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.info-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 10px;
+    margin: 10px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.quote{
+    background-color:#E5E7EB ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.say{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 50px 50px;
+}
+.auth{
+    font-size: 12px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-bottom: 50px;
 }
